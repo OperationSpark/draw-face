@@ -5,10 +5,14 @@ Practice coding by drawing a face in a Khan-Academy style ProcessingJs environme
 # Set Up Programming Environment in Cloud 9
 
 * Go to [http://c9.io](http://c9.io) and sign in with Github.
+
 <img alt="Sign in with Github" src="docs/images/cloud9-sigin.png" width=600px />
+
 * Let's get the project template that we set up for you. On the left click **Create New Workspace** and select **Clone From Url**
 * For a source url paste in `git@github.com:OperationSpark/draw-face.git`. Select **Html 5** as type and click **Create**
+
 <img alt="Clone from url" src="docs/images/cloud9-clone-from-url.png" width=450px />
+
 * You will now see the project being processed on the left. Once it is done (usually takes 10-20 seconds) click on it and click the green **Start Editing** in the center. This will open up the project!
 
 
@@ -22,7 +26,7 @@ You will now see the Cloud 9 programming environment. The most important areas t
 
 In the workspace on the left you see a list of files and folders.
 
-* **Double-click** *index.html* in the *workspace*. This will open up this file in the *text editor*. There is lots of code. Don't worry about it for now.
+* **Double-click** `index.html` in the *workspace*. This will open up this file in the *text editor*. There is lots of code. Don't worry about it for now.
 
 * At the top, click **Preview** and then **Live Preview File** to start the web page. You will see your web page start running in a split window.
     * If the *Live Preview* selection is greyed out, make sure you **double-clicked** the `index.html` file.
@@ -35,7 +39,7 @@ In the workspace on the left you see a list of files and folders.
 
 # Draw a Face
 
-Both here and in your Khan Academy homework this week you will be working with something called *Processing.js*. Normally javascript isn't about drawing circles and lines, *Processing.js* however adds in that ability.
+Both here and in your Khan Academy homework you are working with something called *Processing.js*. Normally javascript isn't about drawing circles and lines, *Processing.js* adds in that ability.
 
 Here are some commands you learned about in homework
 
@@ -132,17 +136,9 @@ ellipse(145, top + 105, 4, 4);
 Now **try changing** `var top = 0;` to `var top = 30;`. The eyes will move all at once!
 
 So one use of variables is so *we can change one labeled part to change lots of things at once*.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+Now **make the rest of your code use the `top` variable** so that you can move the entire face up and down.
+
+# Bonus
+
+**Create a `left`** variable that determines how far from the left of the screen you draw your face. **Change your code** so that it uses the `left` variable allowing you to move your face around anywhere on the canvas.
