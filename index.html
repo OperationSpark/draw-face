@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Simple Processing App</title>
+	<title>Draw a Face</title>
 	<style>
 		canvas {
 			width: 400px;
@@ -44,6 +44,7 @@
 					processingInstance.background(255, 255, 255);
 					processingInstance.noFill();
 					try {
+						code = "'use strict'\r\n\r\n" + code;
 						Processing.compile(code).attach(processingInstance);
 					} catch(err) {
 						console.error(err);
